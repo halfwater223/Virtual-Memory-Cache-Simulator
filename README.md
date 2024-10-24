@@ -74,7 +74,7 @@ Test the effectiveness of the LRU (Least Recently Used) policy by entering a seq
 
 ## Demo Screenshot
 
-![Virtual Memory and Cache Simulator](./images/image.png)
+![Virtual Memory and Cache Simulator](./images/demo_streamlit_page.png)
 
 
 
