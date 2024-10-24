@@ -60,6 +60,16 @@ This demo shows how virtual addresses are translated to physical addresses using
 ### N-Way Set Associative LRU Cache Simulator
 Test the effectiveness of the LRU (Least Recently Used) policy by entering a sequence of memory addresses. You can configure cache sizes and the degree of associativity (N-Way).
 
+## Project Structure
+├── cache_system.py               # Handles the cache system and operations
+├── demo_streamlit.py             # Main Streamlit app for the simulator
+├── memory_management_unit.py     # Simulates the MMU and manages virtual-to-physical translation
+├── PageTable.py                  # Page table management for virtual memory
+├── TestNwaySetAssociativeCacheWithLRU.py  # Test file for the N-Way Cache with LRU
+├── TestVirtualToPhysicalAddressMapping.py # Test file for virtual to physical mapping demo
+└── README.md                     # This file
+
+
 ## Contributing
 Contributions are welcome! Please feel free to submit a pull request or open an issue if you have suggestions for improvements.
 
