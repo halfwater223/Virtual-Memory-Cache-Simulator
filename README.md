@@ -62,19 +62,15 @@ Test the effectiveness of the LRU (Least Recently Used) policy by entering a seq
 
 ## Project Structure
 
-├── cache_system.py               # Handles the cache system and operations
-
-├── demo_streamlit.py             # Main Streamlit app for the simulator
-
-├── memory_management_unit.py     # Simulates the MMU and manages virtual-to-physical translation
-
-├── PageTable.py                  # Page table management for virtual memory
-
-├── TestNwaySetAssociativeCacheWithLRU.py  # Test file for the N-Way Cache with LRU
-
-├── TestVirtualToPhysicalAddressMapping.py # Test file for virtual to physical mapping demo
-
-└── README.md                     # This file
+  ```
+  ├── cache_system.py               # Handles the cache system and operations
+  ├── demo_streamlit.py             # Main Streamlit app for the simulator
+  ├── memory_management_unit.py     # Simulates the MMU and manages virtual-to-physical translation
+  ├── PageTable.py                  # Page table management for virtual memory
+  ├── TestNwaySetAssociativeCacheWithLRU.py  # Test file for the N-Way Cache with LRU
+  ├── TestVirtualToPhysicalAddressMapping.py # Test file for virtual to physical mapping demo
+  └── README.md                     # This file
+  ```
 
 
 ## Contributing
